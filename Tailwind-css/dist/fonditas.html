@@ -8,22 +8,159 @@
 </head>
 <body>
    <header class="bg-head h-screen">
-    <nav class="max-w-5xl m-0 px-5 py-0 flex">
-        <p class="font-bold text-white">Fonditas</p>
-        <ul class="flex font-dmsans text-white">
-            <li><a href="">Nosotros</a></li>
-            <li><a href="">Fonditas</a></li>
-            <li><a href="">Mapa</a></li>
+    <nav class="flex justify-between py-5 container mx-auto px-8">
+        <p class="font-bold text-white font-worksans text-3xl">Fonditas</p>
+        <ul class="flex  justify-between font-dmsans text-gras py-2 text-white">
+            <li class="pr-5"><a href="">Nosotros</a></li>
+            <li class="pr-5"><a href="">Fonditas</a></li>
+            <li class="pr-5"><a href="">Mapa</a></li>
             <li><a href="">Inscribirse</a></li>
         </ul>
         <div class="flex">
-            <div class="mr-1 text-white px-2 py-1 border-solid border-2 border-light-50 rounded-xl">
-                <p>inicia sesion</p>
+            <div class="border-solid border-2 border-gray-300 mr-2 rounded-xl">
+                <p class="font-dmsans text-gras text-white  px-2 py-2 ">inicia sesion</p>
             </div>
-            <img src="images/cart.png" alt="panier">
+            <img src="images/cart.png" alt="panier" class="ml-5">
         </div>
     </nav>
+    <div class="flex justify-between container mx-auto px-8 pt-10">
+        <div class="w-100">
+            <p class="text-title text-3xl font-caveat">De tu fonda favorita</p>
+            <p class="text-white font-bold text-5xl py-10">la comida que ya conoces al mejor precios </p>
+            <div class="pb-40">
+                <input type="text" placeholder="Busca tu platillo favorito" class=" border-1 border-light-50 rounded-xl w-80 p-2 absolute">
+                <button class="border-1 border-btn1 rounded-xl bg-btn1 text-white text-gras text-dmsans w-20 relative ml-60 py-2 text-center">Busca</button>
+            </div>
+            <img src="images/social.png" alt="Nos medias sociaux">
+        </div>
+        <div class="flex flex-co">
+            <div class="flex justify-between">
+                <div>
+                    <img src="images/Combined Shape.png" alt="">
+                    <img src="images/Combined Shape.png" alt="">
+                </div>
+                <img src="images/food3.png" alt="" class="absolute w-20 h-auto ml-60 mt-10">
+            </div>
+            <img src="images/food1.png" alt="" class="w-50 h-80">
+            <img src="images/food2.png" alt="" class="absolute w-40 h-auto">
+            <img src="images/Combined Shape.png" alt="" class="absolute ml-60 mt-70">
+            <img src="images/pin.png" alt="" class="absolute w-20 h-auto ml-60 mt-80">
+        </div>
+    </div>
    </header>
+   <main class="container mx-auto px-8">
+    <div class="py-10">
+        <div class=" flex flex-col items-center">
+            <button class="border-1 border-btn2 rounded-lg bg-btn2 text-white text-gras text-dmsans w-40 py-1 text-center uppercase">categorias</button>
+            <p class="text-center text-head1 font-worksans text-3xl pt-5 font-bold">Las favoritas</p> 
+        </div>
+        <div class="flex justify-around py-10">
+          <div class="flex flex-col items-center bg-card border-1 rounded-xl w-40 h-auto py-6 px-5 hover:bg-hover hover:text-white hover:shadow-2xl">
+            <div class="bg-white border-1 rounded-full px-5 py-4 relative">
+                <img src="images/pizza-1.png" alt="pizza">
+            </div>
+            <p class="bg-icon rounded-xl border-1 px-1 absolute text-white mb-7 ml-16">42</p>
+            <h4 class="text-dmsans font-bold text-head1">Pizza</h4>
+            <p class="text-dmsans text-gray-400">desde $50</p>
+          </div>
+          <div class="flex flex-col items-center bg-card border-1 rounded-xl w-40 h-auto py-6 px-5 hover:bg-hover hover:text-white hover:shadow-2xl">
+            <div class="bg-white border-1 rounded-full px-4 py-4 relative">
+                <img src="images/sushi.png" alt="pizza">
+            </div>
+            <p class="bg-icon rounded-xl border-1 px-1 absolute text-white mb-7 ml-16">35</p>
+            <h4 class="text-dmsans font-bold text-head1">Sushi</h4>
+            <p class="text-dmsans text-gray-400">desde $30</p>
+          </div>
+          <div class="flex flex-col items-center bg-card border-1 rounded-xl w-40 h-auto py-6 px-5 hover:bg-hover hover:text-white hover:shadow-2xl">
+            <div class="bg-white border-1 rounded-full px-4 py-3 relative">
+                <img src="images/hamburger.png" alt="pizza">
+            </div>
+            <p class="bg-icon rounded-xl border-1 px-1 absolute text-white mb-7 ml-16">28</p>
+            <h4 class="text-dmsans font-bold text-head1">Hamburgersas</h4>
+            <p class="text-dmsans text-gray-400">desde $100</p>
+          </div>
+          <div class="flex flex-col items-center bg-card border-1 rounded-xl w-40 h-auto py-6 px-5 hover:bg-hover hover:text-white hover:shadow-2xl">
+            <div class="bg-white border-1 rounded-full px-5 py-4 relative">
+                <img src="images/noodle.png" alt="pizza">
+            </div>
+            <p class="bg-icon rounded-xl border-1 px-1 absolute text-white mb-7 ml-16">23</p>
+            <h4 class="text-dmsans font-bold text-head1">Veggie</h4>
+            <p class="text-dmsans text-gray-400">desde $50</p>
+          </div>
+          <div class="flex flex-col items-center bg-card border-1 rounded-xl w-40 h-auto py-6 px-5 hover:bg-hover hover:text-white hover:shadow-2xl">
+            <div class="bg-white border-1 rounded-full px-5 py-4 relative">
+                <img src="images/watermelon.png" alt="pizza">
+            </div>
+            <p class="bg-icon rounded-xl border-1 px-1 absolute text-white mb-7 ml-16">15</p>
+            <h4 class="text-dmsans font-bold text-head1">Sopas</h4>
+            <p class="text-dmsans text-gray-400">desde $70</p>
+          </div>
+          <div class="flex flex-col items-center bg-card border-1 rounded-xl w-40 h-auto py-6 px-5 hover:bg-hover hover:text-white hover:shadow-2xl">
+            <div class="bg-white border-1 rounded-full px-4 py-3 relative">
+                <img src="images/cake.png" alt="pizza">
+            </div>
+            <p class="bg-icon rounded-xl border-1 px-2 absolute text-white mb-7 ml-16">9</p>
+            <h4 class="text-dmsans font-bold text-head1">Postres</h4>
+            <p class="text-dmsans text-gray-400">desde $65</p>
+          </div>
+        </div>
+    </div>
+    <div class="pb-20">
+        <div>
+            <button class="border-1 border-btn2 rounded-lg bg-btn2 text-white text-gras text-dmsans w-30 px-2 py-1 text-center uppercase">fonditas</button>
+            <p class="text-head1 font-worksans text-3xl py-5 font-bold">Fondas cercanas</p>
+            <div class="flex justify-between">
+                <p class="text-dmsans text-gray-400">‘Estás son las fondas que se encuentran cerca!</p>
+                <div class="flex justify-between pb-10">
+                    <p class="text-gras pr-6">ver todas</p>
+                    <img src="images/Icon.png" alt="" class="pr-2">
+                    <img src="images/Icon.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class=" flex justify-around">
+            <div class="bg-card border-1 rounded-xl">
+                <img src="images/Rectangle.png" alt="" class="relative">
+                <div>
+                    <img src="images/icon1.png" alt="" class="absolute pl-4">
+                    <div class="flex justify-between absolute">
+                        <img src="images/star.png" alt="">
+                        <p class="text-white ml-4">9.8</p>
+                    </div>
+                </div>
+                <p class="text-head1 font-worksans text-lg py-5 pl-4 font-bold">Doña Laura</p>
+                <div class="flex justify-around pr-16 pb-8">
+                    <p>20-30 min</p>
+                    <p>Fonditas</p>
+                </div>
+            </div>
+            <div class="bg-card border-1 rounded-xl">
+                <img src="images/Rectangle2.png" alt="">
+                <p class="text-head1 font-worksans text-lg py-5 pl-4 font-bold">Rosa Cafe</p>
+                <div class="flex justify-around pr-16 pb-8">
+                    <p>-45 min</p>
+                    <p>Fonditas</p>
+                </div>
+            </div>
+            <div class="bg-card border-1 rounded-xl">
+                <img src="images/Rectangle3.png" alt="">
+                <p class="text-head1 font-worksans text-lg py-5 pl-4 font-bold">Le Cotidienne</p>
+                <div class="flex justify-around pr-16 pb-8">
+                    <p>15-20 min</p>
+                    <p>Sushi</p>
+                </div>
+            </div>
+            <div class="bg-card border-1 rounded-xl">
+                <img src="images/Rectangle4.png" alt="">
+                <p class="text-head1 font-worksans text-lg py-5 pl-4 font-bold">Querreque</p>
+                <div class="flex justify-around pr-16 pb-8">
+                    <p>-50 min</p>
+                    <p>Veggies</p>
+                </div>
+            </div>
+        </div>
+    </div>
+   </main>
 
 
 </body>

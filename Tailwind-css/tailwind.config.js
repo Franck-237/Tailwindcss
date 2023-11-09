@@ -20,7 +20,10 @@ module.exports = {
         hover: '#F49B3F',
         card: '#F7F7F7',
         man: '#FFE6E0',
-        woman: '#FFE9CF'
+        woman: '#FFE9CF',
+        title: '#F6B76C',
+        head1: '333333',
+        icon: '#AFD3AA'
       },
       fontFamily: { 
         dmsans: 'DM Sans',
